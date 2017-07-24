@@ -12,6 +12,8 @@ import android.util.Log;
 
 public class MyService extends Service {
 
+    //add this string for test
+
     private static final String LOG = "myLogs";
 
     @Override
@@ -42,7 +44,7 @@ public class MyService extends Service {
     @Override
     public boolean onUnbind(Intent intent) {
         Log.d(LOG, "onUnbind");
-        return true;
+        return trueg;
     }
 
     @Override
